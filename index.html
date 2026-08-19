@@ -6,15 +6,21 @@
 <title>Coven Hollow</title>
 <style>
   body{font-family:Georgia,serif;background:#1d1826;color:#f3ead8;margin:0;padding:40px 20px;text-align:center;}
+  #bgvid{position:fixed;top:0;left:0;width:100vw;height:100vh;object-fit:cover;z-index:-2;}
+  #bgshade{position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(29,24,38,.68);z-index:-1;}
   h1{color:#ffd98a;letter-spacing:2px;text-shadow:0 0 18px rgba(245,176,76,.45);}
   .sub{color:#bfa9d6;font-style:italic;margin-bottom:36px;}
-  a.card{display:block;max-width:520px;margin:14px auto;padding:18px 22px;background:#2c2438;border:1px solid #4a3d61;border-radius:12px;color:#f3ead8;text-decoration:none;text-align:left;}
+  a.card{display:block;max-width:520px;margin:14px auto;padding:18px 22px;background:rgba(44,36,56,.9);border:1px solid #4a3d61;border-radius:12px;color:#f3ead8;text-decoration:none;text-align:left;}
   a.card:hover{border-color:#9a72b0;}
   a.card b{color:#ffd98a;}
   a.card span{display:block;font-size:.85rem;color:#c9bcd9;margin-top:4px;}
 </style>
 </head>
 <body>
+<video id="bgvid" autoplay muted loop playsinline>
+  <source src="village-loop.mp4" type="video/mp4">
+</video>
+<div id="bgshade"></div>
 <h1>COVEN HOLLOW</h1>
 <div class="sub">The working witches' village &middot; planning grimoire &amp; build documents</div>
 <a class="card" href="witch-village-planner.html"><b>The Planner</b><span>Village map, residents, build sheets, upgrades, Prop Shop, finds list</span></a>
@@ -23,6 +29,10 @@
 <a class="card" href="diviner-master-packet.md"><b>Diviner's Tower Master Packet</b><span>Shopping list, facet cut schedule, seven build sessions</span></a>
 <a class="card" href="owlpost-3d.html"><b>Owl Post 3D Model</b><span>Lift the lid, slide out the cubby unit, open the back</span></a>
 <a class="card" href="owlpost-master-packet.md"><b>Owl Post Master Packet</b><span>Shopping list, cut schedule, five build sessions</span></a>
+<a class="card" href="bristletwig-3d.html"><b>Bristle &amp; Twig 3D Model</b><span>Swing the doors, fold the walls, hover any part for its cut size</span></a>
+<a class="card" href="bristletwig-master-packet.md"><b>Bristle &amp; Twig Master Packet</b><span>Shopping list, cut schedule, six build sessions</span></a>
+<a class="card" href="spadeslumber-3d.html"><b>Spade &amp; Slumber 3D Model</b><span>The keeper's shed, headstone kit, and the fresh dig</span></a>
+<a class="card" href="spadeslumber-master-packet.md"><b>Spade &amp; Slumber Master Packet</b><span>Shopping list, cut schedule, three build sessions</span></a>
 <a class="card" href="coven-hollow-build-plans.html"><b>Construction Sheets</b><span>The seven original dimensioned build drawings</span></a>
 <a class="card" href="bakery-master-packet.md"><b>Bakery Master Packet</b><span>Shopping list, cut schedule, ten build sessions</span></a>
 <a class="card" href="coven-hollow-prompt-pack.md"><b>Prompt Pack</b><span>Concept-art prompts and revisions</span></a>
